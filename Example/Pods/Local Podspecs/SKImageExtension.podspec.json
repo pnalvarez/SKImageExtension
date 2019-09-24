@@ -1,0 +1,22 @@
+{
+  "name": "SKImageExtension",
+  "version": "0.1.0",
+  "summary": "A short description of SKImageExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pnalvarez/SKImageExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pnalvarez": "pedronalvarez@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pnalvarez/SKImageExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SKImageExtension/Classes/**/*"
+}

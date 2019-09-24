@@ -25,18 +25,18 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pnalvarez' => 'pedronalvarez@hotmail.com' }
-  s.source           = { :git => 'https://github.com/pnalvarez/SKImageExtension.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/pnalvarez/SKImageExtension.git', :tag => s.version.to_s, :commit => '5ae4a80d6b2f30418e2da9247b463ce90e824561' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SKImageExtension/Classes/**/*'
+  s.source_files = 'SKImageExtension/**/*'
   
   # s.resource_bundles = {
   #   'SKImageExtension' => ['SKImageExtension/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
